@@ -348,16 +348,6 @@ public class MinecraftStatsTest {
 		assertEquals(expectation, playerProfile);
 	}
 	
-	public void testGetPlayerAchievements() {
-		// Given:
-		Acheivements.metaClass.static.values
-		
-		// When:
-		Map<String, Object> playerProfile = new HashMap<String, Object>();
-		MinecraftStats.getPlayerAchievements(pref, playerProfile);
-		
-		// Then:
-	}
 	@Test
 	public void testMergeSets () {
 		Set<String> mergedSet = new TreeSet<String>();
