@@ -40,9 +40,11 @@ import org.json.simple.parser.ParseException;
  * 
  * 
  *         Following are the commands that were used to deploy the plugin jar.
- *         cd C:/workspace/MinecraftStat/target
- *         C:/"Program Files"/Java/jdk1.8.0_20/bin/jar -cf MinecraftStat.jar -C
- *         classes . cp MinecraftStat.jar C:/server/plugins/
+ *         <ul><li>cd C:/workspace/MinecraftStat/target
+ *         </li><li>C:/"Program Files"/Java/jdk1.8.0_20/bin/jar -cf MinecraftStat.jar -C
+ *         classes . 
+ *         </li><li>cp MinecraftStat.jar C:/server/plugins/
+ *         </li></ul>
  */
 public class MinecraftStats extends Plugin implements CommandListener {
 
