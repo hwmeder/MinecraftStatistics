@@ -1,0 +1,4 @@
+main-class = com.agileBill.MinecraftStat.MinecraftStats
+name = MinecraftStats
+author = Harold Meder - Player Statistic Collector
+version = 1.0
